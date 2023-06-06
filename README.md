@@ -121,5 +121,5 @@ The algorithm consists of the following steps:
 ## Demo
 
 Demonstration videos of the robot's navigation capabilities can be found here:
-    [Mobile Robot Demo 1](https://youtu.be/NOnhNL_rm1k)    
-    [Mobile Robot Demo 2](https://youtube.com/shorts/4KPQuJDRXes?feature=share)
+- [Mobile Robot for Navigation Tasks with Potential Fields Demo 1](https://youtu.be/NOnhNL_rm1k)    
+- [Mobile Robot for Navigation Tasks with Potential Fields Demo 2](https://youtube.com/shorts/4KPQuJDRXes?feature=share)
