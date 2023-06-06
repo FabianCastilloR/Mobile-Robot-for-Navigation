@@ -1,4 +1,4 @@
-# Mobile Robot for Navigation with Obstacle Avoidance using Potential Fields
+# Mobile Robot for Navigation Tasks with Obstacle Avoidance using Potential Fields
 
 This project implements a mobile robot capable of performing navigation tasks in an environment with obstacles using the potential fields algorithm. The robot is designed to autonomously move towards a goal location while avoiding obstacles in its path.
 
@@ -45,7 +45,9 @@ The goal of this project is to develop a mobile robot that can navigate through 
    Wifi.h from Arduino IDE Library Manager
 
 
+
    Boards:
+
    ESP32 from https://dl.espressif.com/dl/package_esp32_index.json
 
    You can add the ESP32 board to Arduino IDE by going to File > Preferences > Additional Boards Manager URLs and adding the link above.
@@ -55,13 +57,21 @@ The goal of this project is to develop a mobile robot that can navigate through 
 
    ```bash
    The robot hardware consists of the following components:
+
     - ESP32 microcontroller
+
     - MPU6050 IMU
+
     - 4 DC motors with incremental encoders (In this project we use 2 microgeared motors of 6VDC at 100RPM and 2 microgeared motors of 6VDC at 50RPM, both with 14 CPR encoders)
+
     - 2 motor drivers (In this project we use 2 VNH2SP30 motor drivers)
+
     - 1 LiPo battery (In this project we use a 3S 11.1V 2200mAh LiPo battery)
+
     - 1 5V voltage regulator (In this project we use a XL4005 voltage regulator)
+
     - 1 6V voltage regulator (In this project we use a LM2596 voltage regulator)
+    
     - 1 camera (In this project we use a Razer Kiyo X camera)
    ```
 
@@ -111,6 +121,5 @@ The algorithm consists of the following steps:
 ## Demo
 
 Demonstration videos of the robot's navigation capabilities can be found here:
-    
-    [![Demo 1](https://youtu.be/NOnhNL_rm1k)]
-    [![Demo 2](https://youtube.com/shorts/4KPQuJDRXes?feature=share)]
+    [Mobile Robot Demo 1](https://youtu.be/NOnhNL_rm1k)    
+    [Mobile Robot Demo 2](https://youtube.com/shorts/4KPQuJDRXes?feature=share)
