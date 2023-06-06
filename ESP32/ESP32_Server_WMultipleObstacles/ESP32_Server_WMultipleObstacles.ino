@@ -26,8 +26,6 @@ obstacle avoidance, the user must use the server code "ESP32_Server_WNoObstacles
 "PC_Client_WNoObstacles.py".
 */
 
-
-
 #include <WiFiUdp.h>
 #include <MPU6050.h>  // From: https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050
 #include <I2Cdev.h>   // From: https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/I2Cdev
